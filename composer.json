@@ -1,5 +1,5 @@
 {
-    "name": "dat/php-client",
+    "name": "simonj/dat-php-client",
     "description": "PHP client library for Dat debugging application - Fast, intuitive debugging for PHP",
     "type": "library",
     "license": "MIT",

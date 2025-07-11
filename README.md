@@ -7,7 +7,7 @@ A PHP client library for the [Dat debugging application](https://github.com/simo
 Install the package via Composer:
 
 ```bash
-composer require dat/php-client
+composer require simonj/dat-php-client
 ```
 
 ## Quick Start
