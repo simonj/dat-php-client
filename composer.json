@@ -1,0 +1,41 @@
+{
+    "name": "dat/php-client",
+    "description": "PHP client library for Dat debugging application - Ray-style debugging for PHP",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["debug", "debugging", "ray", "dat", "logging", "development"],
+    "homepage": "https://github.com/dat-team/php-client",
+    "authors": [
+        {
+            "name": "Dat Team",
+            "email": "hello@dat.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "ramsey/uuid": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "phpstan/phpstan": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dat\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dat\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
