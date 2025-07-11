@@ -6,7 +6,7 @@ echo "Dat PHP Client - Laravel-style Usage Examples\n";
 echo "==============================================\n\n";
 
 // Simulate a Laravel-style application flow
-echo "Simulating Laravel application flow...\n\n";
+echo "Simulating Laravel application flow with Dat debugging...\n\n";
 
 // 1. Route handling
 echo "1. Route handling:\n";
@@ -179,4 +179,4 @@ foreach ($featureFlags as $flag => $enabled) {
 }
 
 echo "\nLaravel-style examples completed!\n";
-echo "Check your Dat application to see the organized debug output.\n";
+echo "Check your Dat application to see the beautifully organized debug output.\n";

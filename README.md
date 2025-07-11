@@ -1,6 +1,6 @@
 # Dat PHP Client
 
-A PHP client library for the [Dat debugging application](https://github.com/dat-app/dat), providing Ray-style debugging capabilities.
+A PHP client library for the [Dat debugging application](https://github.com/dat-app/dat), providing fast and intuitive debugging capabilities for PHP applications.
 
 ## Installation
 
@@ -44,6 +44,8 @@ dat('Database query')->screen('database');
 ```
 
 ## Features
+
+Dat provides a modern, fast debugging experience for PHP applications with an intuitive API and powerful features.
 
 ### Basic Debugging
 
@@ -201,7 +203,7 @@ $dat = new Dat('127.0.0.1', 3030, false);
 
 ### Chaining Methods
 
-Chain multiple methods for complex debugging:
+Chain multiple methods for powerful debugging:
 
 ```php
 dat('User registration')

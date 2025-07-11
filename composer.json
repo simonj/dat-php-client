@@ -1,9 +1,9 @@
 {
     "name": "dat/php-client",
-    "description": "PHP client library for Dat debugging application - Ray-style debugging for PHP",
+    "description": "PHP client library for Dat debugging application - Fast, intuitive debugging for PHP",
     "type": "library",
     "license": "MIT",
-    "keywords": ["debug", "debugging", "ray", "dat", "logging", "development"],
+    "keywords": ["debug", "debugging", "dat", "logging", "development", "macos"],
     "homepage": "https://github.com/dat-team/php-client",
     "authors": [
         {
