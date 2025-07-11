@@ -1,6 +1,6 @@
 # Dat PHP Client
 
-A PHP client library for the [Dat debugging application](https://github.com/dat-app/dat), providing fast and intuitive debugging capabilities for PHP applications.
+A PHP client library for the [Dat debugging application](https://github.com/simonj/dat-php-client), providing fast and intuitive debugging capabilities for PHP applications.
 
 ## Installation
 

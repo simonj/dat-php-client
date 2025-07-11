@@ -4,7 +4,7 @@
     "type": "library",
     "license": "MIT",
     "keywords": ["debug", "debugging", "dat", "logging", "development", "macos"],
-    "homepage": "https://github.com/dat-team/php-client",
+    "homepage": "https://github.com/simonj/dat-php-client",
     "authors": [
         {
             "name": "Dat Team",
