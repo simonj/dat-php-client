@@ -1,41 +1,18 @@
 {
-    "name": "simonj/dat-php-client",
-    "description": "PHP client library for Dat debugging application - Fast, intuitive debugging for PHP",
+    "name": "dat/php-client",
+    "description": "PHP client for Dat debugging application",
     "type": "library",
     "license": "MIT",
-    "keywords": ["debug", "debugging", "dat", "logging", "development", "macos"],
-    "homepage": "https://github.com/simonj/dat-php-client",
-    "authors": [
-        {
-            "name": "Dat Team",
-            "email": "hello@dat.dev"
-        }
-    ],
-    "require": {
-        "php": "^7.4|^8.0",
-        "guzzlehttp/guzzle": "^7.0",
-        "ramsey/uuid": "^4.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.0",
-        "phpstan/phpstan": "^1.0"
-    },
     "autoload": {
         "psr-4": {
-            "Dat\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Dat\\Tests\\": "tests/"
+            "Dat\\Client\\": "src/"
         }
     },
-    "config": {
-        "sort-packages": true
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.0"
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }
